@@ -1,0 +1,18 @@
+#flashcard {
+  width: 60vw;
+  height: 40vw;
+  box-shadow: 10px 10px 50px -10px;
+  margin: 0 auto;
+}
+
+#question {
+  font-size: 45px;
+  padding: 15px;
+  text-align: center;
+}
+
+#answer {
+  font-size: 30px;
+  padding: 15px;
+  text-indent: 30px;
+}

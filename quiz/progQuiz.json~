@@ -50,7 +50,39 @@
     },
     {
       "question": "In what ways can you construct a String?",
-      "answer": "String str1 = \"Hello world!\";<br>String str2 = new String(\"Hola world!\");"
+      "answer": "<br>String str1 = \"Hello world!\";<br>String str2 = new String(\"Hola world!\");"
+    },
+    {
+      "question": "How do you get the length of an array? A String?",
+      "answer": "<br>str.length() : int<br>arr.length : int"
+    },
+    {
+      "question": "What String method is used to find a char at a given index?",
+      "answer": "+charAt(int index) : char"
+    },
+    {
+      "question": "How do you concatenate two Strings?",
+      "answer": "<br>str1 + str2;<br>str1.concat(str2);"
+    },
+    {
+      "question": "How does the String method substring() work?",
+      "answer": "substring(int beginIndex) returns a new String starting from the given index. 0 would just give the same String all over again.<br>substring(int beginIndex, int endIndex) returns a new String that starts from the beginIndex and stops one before the endIndex<br>\"hellothereguy\".substring(5, 10).equals(\"there\") // resolves to true"
+    },
+    {
+      "question": "How do you compare two Strings?",
+      "answer": "<br>str1.equals(str2) : boolean"
+    },
+    {
+      "question": "What does the String method compareTo() do? What about compareToIgnoreCase()?",
+      "answer": "str1.compareTo(str2) compares two strings lexicographically in which we take the unicode value of the first char of the first string and subtracts it from the first char of the second string. This continues until there is a difference and that value is returned as an int. Method compareToIgnoreCase() does the same but ignores case<br>\"apple\".compareTo(\"banana\") == -1<br>If there is no index that they differ then the difference between their String lengths is returned"
+    },
+    {
+      "question": "How do you find a char or a substring within a String starting from the beginning?",
+      "answer": "<br>indexOf(int c) : int // first occurence<br>indexOf(int c, int fromIndex) : int // begins search from fromIndex<br>indexOf(String str) : int // first occurence<br>indexOf(String str, int fromIndex) : int // begins search from fromIndex"
+    },
+    {
+      "question": "How do you find a char or a substring within a String starting from the end?",
+      "answer": "<br>lastIndexOf(int c) : int // last occurence<br>lastIndexOf(int c, int fromIndex) : int // searches backwards from fromIndex<br>indexOf(String str) : int // first occurence<br>indexOf(String str, int fromIndex) : int // begins search from fromIndex"
     }
   ]
 }

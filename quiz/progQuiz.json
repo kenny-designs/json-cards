@@ -1,0 +1,56 @@
+{
+  "quiz": [
+    {
+      "question": "How do you create a new BigInteger object?",
+      "answer": "By supplying a string with a number like so:<br>BigInteger a = new BigInteger(\"123\");" 
+    },
+    {
+      "question": "How do you create a new BigDecimal object?",
+      "answer": "By supplying a string with a number in either int or floating point format:<br>BigDecimal a = new BigDecimal(\"123.5\");<br>or<br>BigDecimal b = new BigDecimal(\"50\");"
+    },
+    {
+      "question": "How do you create a new Integer object?",
+      "answer": "With either an int or a String like so:<br>Integer a = new Integer(100);<br>or<br>Integer b = new Integer(\"500\");"
+    },
+    {
+      "question": "How do you create a new Double object?",
+      "answer": "With either a double or a String like so:<br>Double a = new Double(5.15);<br>or<br>Double b = new Double(\"5.0\");"
+    },
+    {
+      "question": "What is the MIN_VALUE and the MAX_VALUE for the Integer class?",
+      "answer": "These are the max and min values for the primitive data type int.<br>MAX_VALUE = 2,147,483,647<br>MIN_VALUE = -2,147,483,648"
+    },
+    {
+      "question": "What is the MIN_VALUE and the MAX_VALUE for the Double class?",
+      "answer": "These are the max and min values for the primitive data type double.<br>MAX_VALUE = 1.7976931348623157E308<br>MIN_VALUE = 4.9E-324"
+    },
+    {
+      "question": "What is a wrapper class?",
+      "answer": "A wrapper class encapsulates the functionality of another class or component. In the case of primitive wrapper classes, such as Double, it allows us to use a primitive as an object and allow greater use of it such as easy conversion to int via the method intValue() found in the Numbers class"
+    },
+    {
+      "question": "What primitive values can a numeric wrapper class convert to?",
+      "answer": "<br>+doubleValue() : double<br>+floatValue() : float<br>+intValue() : int<br>+longValue() : long<br>+shortValue() : short"
+    },
+    {
+      "question": "What does the static method valueOf() of the numeric wrapper classes do? What parameters can it take?",
+      "answer": "The static method valueOf() returns an instance of the class it was invoked from such as Integer.valueOf(). It can either take a String or a primitive data type relating to the class it was invoked from.<br>Integer a = Integer.valueOf(\"500\");<br>Integer b = Integer.valueOf(15);"
+    },
+    {
+      "question": "What would foo print if Integer foo = new Integer(\"100\");?",
+      "answer": "It would just print 100 and NOT the object's address in memory"
+    },
+    {
+      "question": "What is the difference between Integer.parseInt(String s) vs Integer.parseInt(String s, int radix)?",
+      "answer": "They both are static methods that return an int. However, the version with the radix returns that string as an int at that base.<br>parseInt(\"473\", 10) == 473<br>parseInt(\"1101\", 2) == 13<br>Long and Short can also use the radix version but not Double or Float"
+    },
+    {
+      "question": "How can you simplify Integer[] arr = {new Integer(2), new Integer(5), new Integer(34)}; and why?",
+      "answer": "JDK 1.5 allows primitive type and wrapper classes to be converted automatically so we can now do the following:<br>Integer[] arr = {2, 5, 34};<br>This is known as 'boxing' and retrieving the values out of this array is known as 'unboxing'"
+    },
+    {
+      "question": "<br>In what ways can you construct a String?",
+      "answer": "String str1 = \"Hello world!\";<br>String str2 = new String(\"Hola world!\");"
+    }
+  ]
+}

@@ -35,5 +35,5 @@ Quiz.prototype.start = function() {
 };
 
 // begin the quiz
-let quiz = new Quiz('sample.json');
+let quiz = new Quiz('progQuiz.json');
 quiz.start();

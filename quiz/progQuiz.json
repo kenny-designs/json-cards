@@ -30,7 +30,7 @@
     },
     {
       "question": "What primitive values can a numeric wrapper class convert to?",
-      "answer": "<br>+doubleValue() : double<br>+floatValue() : float<br>+intValue() : int<br>+longValue() : long<br>+shortValue() : short"
+      "answer": "The following are NOT static by the way.<br>+doubleValue() : double<br>+floatValue() : float<br>+intValue() : int<br>+longValue() : long<br>+shortValue() : short"
     },
     {
       "question": "What does the static method valueOf() of the numeric wrapper classes do? What parameters can it take?",
@@ -42,7 +42,7 @@
     },
     {
       "question": "What is the difference between static methods Integer.parseInt(String s) vs Integer.parseInt(String s, int radix)?",
-      "answer": "They both are static methods that return an int. However, the version with the radix returns that string as an int at that base.<br>parseInt(\"473\", 10) == 473<br>parseInt(\"1101\", 2) == 13<br>Long and Short can also use the radix version but not Double or Float"
+      "answer": "They both are static methods that return an int. However, the version with the radix returns that string as an int at that base.<br>parseInt(\"473\", 10) == 473<br>parseInt(\"1101\", 2) == 13<br>Long and Short can also use the radix version but not Double or Float<br>Also, for Double the method would be parseDouble(String s) as opposed to parseInt(String s). This remains true for the other primitive wrapper classes."
     },
     {
       "question": "How can you simplify Integer[] arr = {new Integer(2), new Integer(5), new Integer(34)}; and why?",
@@ -78,11 +78,11 @@
     },
     {
       "question": "How do you find a char or a substring within a String starting from the beginning?",
-      "answer": "<br>indexOf(int c) : int // first occurence<br>indexOf(int c, int fromIndex) : int // begins search from fromIndex<br>indexOf(String str) : int // first occurence<br>indexOf(String str, int fromIndex) : int // begins search from fromIndex"
+      "answer": "<br>indexOf(int c) : int // first occurence<br>indexOf(int c, int fromIndex) : int // begins search from fromIndex, is inclusive<br>indexOf(String str) : int // first occurence<br>indexOf(String str, int fromIndex) : int // begins search from fromIndex"
     },
     {
       "question": "How do you find a char or a substring within a String starting from the end?",
-      "answer": "<br>lastIndexOf(int c) : int // last occurence<br>lastIndexOf(int c, int fromIndex) : int // searches backwards from fromIndex<br>lastIndexOf(String str) : int // last occurence<br>lastIndexOf(String str, int fromIndex) : int // searches backwards from fromIndex"
+      "answer": "<br>lastIndexOf(int c) : int // last occurence<br>lastIndexOf(int c, int fromIndex) : int // searches backwards from fromIndex, is inclusive<br>lastIndexOf(String str) : int // last occurence<br>lastIndexOf(String str, int fromIndex) : int // searches backwards from fromIndex"
     },
     {
       "question": "How do you get a String out of a Numeric value?",
@@ -95,6 +95,14 @@
     {
       "question": "How do you use the various String replace methods?",
       "answer": "<br>replace(char oldChar, char newChar) : String // replaces all of old with new<br>replaceFirst(String regex, String replacement) : String // replace first substring with that matches regular expression with replacement<br>replace(CharSequence target, CharSequence replacement) : String // replaces all instances of target with replacement"
+    },
+    {
+      "question": "How does the String method split() work?",
+      "answer": "The function split() works by taking a String and splits the String into a String array every time the given String shows up.<br>\"hello#there#world\".split(\"#\") would result in String[] = {\"hello\", \"there\", \"world\"}"
+    },
+    {
+      "question": "",
+      "answer": ""
     }
   ]
 }

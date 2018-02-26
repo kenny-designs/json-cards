@@ -38,6 +38,11 @@ Quiz.prototype.start = function() {
 // let quiz = new Quiz('progQuiz.json');
 
 // chemistry quiz
-let quiz = new Quiz('chem.json');
+// let quiz = new Quiz('chem.json');
 
+// TODO: improve this
+// prompt the user for a quiz
+let quiz = new Quiz(prompt('Enter a quiz to take:', 'progQuiz.json'));
+
+// begin quiz
 quiz.start();

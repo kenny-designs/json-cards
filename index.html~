@@ -10,7 +10,7 @@
     <div id="question">
       Hello question. This is some sample text for us to learn from.
     </div>
-    <div id="answer">Hello answer! This is a test for our answer text...</div>
+    <div id="answer">Hello answer! This is a test for our answer text. It works! I think...</div>
   </div>
 
 

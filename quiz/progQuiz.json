@@ -41,7 +41,7 @@
       "answer": "It would just print 100 and NOT the object's address in memory"
     },
     {
-      "question": "What is the difference between Integer.parseInt(String s) vs Integer.parseInt(String s, int radix)?",
+      "question": "What is the difference between static methods Integer.parseInt(String s) vs Integer.parseInt(String s, int radix)?",
       "answer": "They both are static methods that return an int. However, the version with the radix returns that string as an int at that base.<br>parseInt(\"473\", 10) == 473<br>parseInt(\"1101\", 2) == 13<br>Long and Short can also use the radix version but not Double or Float"
     },
     {
@@ -83,6 +83,18 @@
     {
       "question": "How do you find a char or a substring within a String starting from the end?",
       "answer": "<br>lastIndexOf(int c) : int // last occurence<br>lastIndexOf(int c, int fromIndex) : int // searches backwards from fromIndex<br>lastIndexOf(String str) : int // last occurence<br>lastIndexOf(String str, int fromIndex) : int // searches backwards from fromIndex"
+    },
+    {
+      "question": "How do you get a String out of a Numeric value?",
+      "answer": "Utilize the static toString() methods for the various numeric wrapper classes like so:<br>Integer.toString(myInt) // converts our int into a String<br>Also toString() by itself used with a numeric wrapper object will return it's value as a String"
+    },
+    {
+      "question": "What does it mean for a string to be <i>interned?</i>",
+      "answer": "Since strings are immutable and are frequently used, to improve efficiency and save memory, the JVM uses a unique instance for string literals with the same character sequence. Such an instance is called interned.<br>String s1 = \"Hello\";<br>String s2 == new String(\"Hello\");<br>String s3 = \"Hello\";<br>Strings s1 and s3 point to the same interned String while s2 points to a String object for \"Hello\""
+    },
+    {
+      "question": "How do you use the various String replace methods?",
+      "answer": "<br>replace(char oldChar, char newChar) : String // replaces all of old with new<br>replaceFirst(String regex, String replacement) : String // replace first substring with that matches regular expression with replacement<br>replace(CharSequence target, CharSequence replacement) : String // replaces all instances of target with replacement"
     }
   ]
 }

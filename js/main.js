@@ -34,6 +34,10 @@ Quiz.prototype.start = function() {
   }.bind(this);
 };
 
-// begin the quiz
-let quiz = new Quiz('progQuiz.json');
+// programming quiz
+// let quiz = new Quiz('progQuiz.json');
+
+// chemistry quiz
+let quiz = new Quiz('chem.json');
+
 quiz.start();

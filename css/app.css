@@ -15,5 +15,20 @@
 #answer {
   font-size: 2vw;
   padding: 15px;
+  /*
   text-indent: 30px;
+  */
+}
+
+/* Table CSS */
+table {
+  width: 100%;
+  text-align: center;
+  /*
+  text-indent: 0 !important;
+  */
+}
+
+table, th, td {
+  border: 1px solid black;
 }

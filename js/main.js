@@ -11,7 +11,7 @@ function Quiz(quizName) {
 // loads in our quiz and starts the exam
 Quiz.prototype.start = function() {
   this.req = new XMLHttpRequest();
-  this.req.open('GET', './quiz/' + this.quizName);
+  this.req.open('GET', './quiz/' + this.quizName + '.json');
   this.req.responseType = 'json';
   this.req.send();
 
@@ -65,7 +65,7 @@ Quiz.prototype.keyControls = function(event) {
 
 // TODO: improve this. Very crude and offers no way to catch exceptions
 // prompt the user for a quiz
-let quiz = new Quiz(prompt('Enter a quiz to take:', 'progQuiz.json'));
+let quiz = new Quiz(prompt('Enter a quiz to take:', 'progQuiz'));
 
 // begin quiz
 quiz.start();

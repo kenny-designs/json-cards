@@ -1,0 +1,60 @@
+{
+  "quiz": [
+    {
+      "question": "What are the three formulas for the Law of Cosines?",
+      "answer": "<br>a<sup>2</sup> = b<sup>2</sup> + c<sup>2</sup> - 2bc cos A<br>b<sup>2</sup> = a<sup>2</sup> + c<sup>2</sup> - 2ac cos B<br>c<sup>2</sup> = a<sup>2</sup> + b<sup>2</sup> - 2ab cos C"
+    },
+    {
+      "question": "What types of triangles should the Law of Cosines be used with?",
+      "answer": "SSS and SAS"
+    },
+    {
+      "question": "How do you find the semiperimeter of a triangle and how can you use it to find the area of said triangle?",
+      "answer": "let <i>s</i> be the semiperimeter and a, b, and c the sides of a triangle<br>s = 1/2(a + b + c)<br>Area = sqrt(s(s - a)(s - b)(s - c))"
+    },
+    {
+      "question": "What is the formula for the Law of Sines?",
+      "answer": "<br>sin A / a = sin B / b = sin C / c"
+    },
+    {
+      "question": "What types of triangles should the Law of Sines be used with?",
+      "answer": "ASA or SAA and also SSA"
+    },
+    {
+      "question": "What is special about solving a SSA triangle with the Law of Sines?",
+      "answer": "Such a triangle can be ambiguous. There could be no, one, or two solutions"
+    },
+    {
+      "question": "What is the formula for the Unit Circle?",
+      "answer": "<br>x<sup>2</sup> + y<sup>2</sup> = 1"
+    },
+    {
+      "question": "On a Unit Circle, how would you find terminal point P(x,y) given value t?",
+      "answer": "Set calculator to radians and simply plug t into sin() for the y and t into cos() for the x<br>"
+    },
+    {
+      "question": "What six ways can we define t be it any real number and let P(x,y) be the terminal point on the unit circle determined by t?",
+      "answer": "We define like so:<ul><li>sin t = y</li><li>cos t = x</li><li>tan t = y/x (x != 0)</li><li>csc t = 1/y (y != 0)</li><li>sec t = 1/x (x != 0)<li>cot t = x/y (y != 0)</li></ul>"
+    },
+    {
+      "question": "What are the domains of the trigonometric functions?",
+      "answer": "<table><tr><th>Function</th><th>Domain</th></tr><tr><td>sin, cos</td><td>All real numbers</td></tr><tr><td>tan, sec</td><td>All real numbers other than PI/2 + nPI for any integer pie</td></tr><tr><td>cot, csc</td><td>All real numbers other than nPI for any integer, n</td></tr></table>"
+    },
+    {
+      "question": "What are the three Pythagorean Identities?",
+      "answer": "<br><ul><li>sin<sup>2</sup>t + cos<sup>2</sup>t = 1</li><li>tan<sup>2</sup>t + 1 = sec<sup>2</sup>t</li><li>1 + cot<sup>2</sup>t = csc<sup>2</sup>t</li></ul>"
+    },
+    {
+      "question": "",
+      "answer": ""
+    },
+    {
+      "question": "",
+      "answer": ""
+    },
+    {
+      "question": "",
+      "answer": ""
+    }
+  ]
+}

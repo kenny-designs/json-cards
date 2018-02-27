@@ -7,13 +7,24 @@
 }
 
 #question {
-  font-size: 45px;
+  font-size:3vw;
   padding: 15px;
   text-align: center;
 }
 
 #answer {
-  font-size: 30px;
+  font-size: 2vw;
   padding: 15px;
   text-indent: 30px;
+}
+
+/* Table CSS */
+table {
+  width: 100%;
+  text-align: center;
+  text-indent: 0 !important;
+}
+
+table, th, td {
+  border: 1px solid black;
 }

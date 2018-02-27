@@ -94,7 +94,7 @@
     },
     {
       "question": "How do you use the various String replace methods?",
-      "answer": "<br>replace(char oldChar, char newChar) : String // replaces all of old with new<br>replaceFirst(String regex, String replacement) : String // replace first substring with that matches regular expression with replacement<br>replace(CharSequence target, CharSequence replacement) : String // replaces all instances of target with replacement"
+      "answer": "<br>replace(char oldChar, char newChar) : String // replaces all of old with new<br>replaceFirst(String regex, String replacement) : String // replace first substring with that matches regular expression with replacement<br>replace(CharSequence target, CharSequence replacement) : String // replaces all instances of target with replacement<br>replaceAll(String regex, String replacement) : String // similar to replace() with the char sequences but works with regular expressions"
     },
     {
       "question": "How does the String method split() work?",

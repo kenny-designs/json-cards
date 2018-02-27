@@ -94,14 +94,14 @@
     },
     {
       "question": "How do you use the various String replace methods?",
-      "answer": "<br>replace(char oldChar, char newChar) : String // replaces all of old with new<br>replaceFirst(String regex, String replacement) : String // replace first substring with that matches regular expression with replacement<br>replace(CharSequence target, CharSequence replacement) : String // replaces all instances of target with replacement"
+      "answer": "<br>replace(char oldChar, char newChar) : String // replaces all of old with new<br>replaceFirst(String regex, String replacement) : String // replace first substring with that matches regular expression with replacement<br>replace(CharSequence target, CharSequence replacement) : String // replaces all instances of target with replacement<br>replaceAll(String regex, String replacement)"
     },
     {
-      "queston": "How does the String method split() work?",
+      "question": "How does the String method split() work?",
       "answer": "The function split() works by taking a String and splits the String into a String array every time the given String shows up.<br>\"hello#there#world\".split(\"#\") would result in String[] = {\"hello\", \"there\", \"world\"}"
     },
     {
-      "queston": "",
+      "question": "",
       "answer": ""
     }
   ]

@@ -21,26 +21,49 @@ Quiz.prototype.start = function() {
     this.question.innerHTML = this.req.response.quiz[this.num].question;
     this.answer.innerHTML = '';
 
-    // add functionality to the flashcard div
+    // allow flipping through cards
     this.flashcard.addEventListener('click', function() {
-      if (this.answer.innerHTML === '') {
-        this.answer.innerHTML = this.req.response.quiz[this.num].answer;
-      }
-      else {
-        this.question.innerHTML = this.req.response.quiz[++this.num].question;
-        this.answer.innerHTML = '';
-      }
+      this.nextCard();
     }.bind(this));
+
+    // key listener
+    document.addEventListener('keydown', this.keyControls.bind(this));
   }.bind(this);
 };
 
-// programming quiz
-// let quiz = new Quiz('progQuiz.json');
+// flips to the next card
+Quiz.prototype.nextCard = function() {
+  if (this.answer.innerHTML === '') {
+    this.answer.innerHTML = this.req.response.quiz[this.num].answer;
+  }
+  else {
+    this.question.innerHTML = this.req.response.quiz[++this.num].question;
+    this.answer.innerHTML = '';
+  }
+};
 
-// chemistry quiz
-// let quiz = new Quiz('chem.json');
+// goes back a card
+Quiz.prototype.prevCard = function() {
+  this.answer.innerHTML = '';
 
-// TODO: improve this
+  if (this.num > 0) {
+    this.question.innerHTML = this.req.response.quiz[--this.num].question;
+  }
+};
+
+// sets arrow controls
+Quiz.prototype.keyControls = function(event) {
+  switch (event.keyCode) {
+    case 39:
+      this.nextCard();
+      break;
+    case 37:
+      this.prevCard();
+      break;
+  }
+};
+
+// TODO: improve this. Very crude and offers no way to catch exceptions
 // prompt the user for a quiz
 let quiz = new Quiz(prompt('Enter a quiz to take:', 'progQuiz.json'));
 

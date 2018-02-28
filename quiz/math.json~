@@ -42,7 +42,39 @@
     },
     {
       "question": "What are the three Pythagorean Identities?",
-      "answer": "<br><ul><li>sin<sup>2</sup>t + cos<sup>2</sup>t = 1</li></ul>"
+      "answer": "<br><ul><li>sin<sup>2</sup>t + cos<sup>2</sup>t = 1</li><li>tan<sup>2</sup>t + 1 = sec<sup>2</sup>t</li><li>1 + cot<sup>2</sup>t = csc<sup>2</sup>t</li></ul>"
+    },
+    {
+      "question": "How do you convert from radians to degrees? What about the reverse?",
+      "answer": "Multiply the radian by 180/PI to get degrees<br>Multiply the degree by PI/180 to get radians"
+    },
+    {
+      "question": "What is the formula to find the length of a circular arc?",
+      "answer": "s = r&Theta;"
+    },
+    {
+      "question": "What is the formula to find the area of a circular sector?",
+      "answer": "Area = 1/2 * r<sup>2</sup>&Theta;"
+    },
+    {
+      "question": "What are the formulas for both angular and linear speed?",
+      "answer": "&omega; = &Theta; / t // Angular Speed<br>v = s / t // Linear Speed"
+    },
+    {
+      "question": "What is the relationship between linear and angular speed via a formula?",
+      "answer": "v = r&omega;"
+    },
+    {
+      "question": "What are the six trigonometric ratios? Hint: hypotenuse, adjacent, and opposite",
+      "answer": "sin &Theta; = opp / hypot<br>csc &Theta; = hypot / opp<br> cos &Theta; = adj / hypot<br>sec &Theta; = hypot / adj<br>tan &Theta; = opp / adj<br>cot &Theta; = adj / opp"
+    },
+    {
+      "question": "What is another formula for finding the area of a triangle if you have sides a and b?",
+      "answer": "Area = 1/2 * ab * sin &Theta;"
+    },
+    {
+      "question": "How do the inverse functions work?",
+      "answer": "sin<sup>-1</sup>x = y &harr; sin y = x"
     },
     {
       "question": "",

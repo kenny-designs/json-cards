@@ -4,6 +4,7 @@ function Quiz(quizName) {
   this.flashcard = document.getElementById('flashcard'); // flashcard div
   this.question = document.getElementById('question');   // question div 
   this.answer = document.getElementById('answer');       // answer div
+  this.controls = new Controller();                      // handling user input
 
   this.num = 0; // quiz question we are currently on
 }
@@ -26,8 +27,12 @@ Quiz.prototype.start = function() {
       this.nextCard();
     }.bind(this));
 
-    // key listener
-    document.addEventListener('keydown', this.keyControls.bind(this));
+    // set keyboard controls
+    this.controls.setBinding('rightArrow', this.nextCard.bind(this));
+    this.controls.setBinding('leftArrow', this.prevCard.bind(this));
+
+    // touch listener
+    // document.addEventListener('touchstart', this.touchControls.bind(this), false);
   }.bind(this);
 };
 
@@ -51,16 +56,45 @@ Quiz.prototype.prevCard = function() {
   }
 };
 
-// sets arrow controls
-Quiz.prototype.keyControls = function(event) {
+// Object that handles detecting user input
+function Controller() {
+  // records location of touch
+  this.xDown = null;
+  this.yDown = null;
+
+  // constants for keys
+  this.LEFT_ARROW = 37;
+  this.RIGHT_ARROW = 39;
+
+  // object that stores key bindings
+  this.bindings = {};
+
+  // begin listening for key presses
+  document.addEventListener('keydown', this.handleKeyDown.bind(this));
+}
+
+// sets a new key binding to the bindings object
+Controller.prototype.setBinding = function(name, func) {
+  this.bindings[name] = func;
+};
+
+// invokes the action associated with the related key
+Controller.prototype.handleKeyDown = function(event) {
   switch (event.keyCode) {
-    case 39:
-      this.nextCard();
+    case this.RIGHT_ARROW:
+      this.bindings.rightArrow();
       break;
-    case 37:
-      this.prevCard();
+
+    case this.LEFT_ARROW:
+      this.bindings.leftArrow();
       break;
   }
+};
+
+// sets initial values for when a touch event is detected
+Controller.prototype.handleTouchStart = function(event) {
+  this.xDown = event.touches[0].clientX;
+  this.yDown = event.touches[0].clientY;
 };
 
 // TODO: improve this. Very crude and offers no way to catch exceptions
@@ -69,3 +103,9 @@ let quiz = new Quiz(prompt('Enter a quiz to take:', 'progQuiz'));
 
 // begin quiz
 quiz.start();
+
+/*
+let obj = {};
+obj[37] = function(){}; // holy shit yoooo!!!
+console.log(obj);
+*/

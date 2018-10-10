@@ -2,7 +2,7 @@ function Quiz(quizName) {
   // name of the quiz i.e. sample.json
   this.quizName = quizName;
   this.flashcard = document.getElementById('flashcard'); // flashcard div
-  this.question = document.getElementById('question');   // question div 
+  this.question = document.getElementById('question');   // question div
   this.answer = document.getElementById('answer');       // answer div
   this.controls = new Controller();                      // handling user input
 
@@ -99,7 +99,7 @@ Controller.prototype.handleTouchStart = function(event) {
 
 // TODO: improve this. Very crude and offers no way to catch exceptions
 // prompt the user for a quiz
-let quiz = new Quiz(prompt('Enter a quiz to take:', 'progQuiz'));
+var quiz = new Quiz(prompt('Enter a quiz to take:', 'progQuiz'));
 
 // begin quiz
 quiz.start();

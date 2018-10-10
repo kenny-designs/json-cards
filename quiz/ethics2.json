@@ -1,0 +1,99 @@
+{
+  "quiz": [{
+    "question": "profession",
+    "answer": "A profession is a calling that requires specialized knowledge and often long and intensiveacademic preparation."
+  }, {
+    "question": "Business Software Alliance (BSA)",
+    "answer": "The Business Software Alliance (BSA) is a trade group that represents the world’slargest software and hardware manufacturers. Its mission is to stop the unauthorizedcopying of software produced by its members."
+  }, {
+    "question": "trade secret",
+    "answer": "A trade secret is information, generally unknown to the public, that a companyhas taken strong measures to keep confidential. It represents something of economic valuethat has required effort or cost to develop and that has some degree of uniqueness ornovelty. Trade secrets can include the design of new software code, hardware designs,business plans, the design of a user interface to a computer program, and manufacturingprocesses. Examples include the Colonel’s secret recipe of 11 herbs and spices used tomake the original KFC chicken, the formula for Coke, and Intel’s manufacturing processfor the i7 quad core processing chip. Employers worry that employees may reveal thesesecrets to competitors, especially if they leave the company. As a result, companies oftenrequire employees to sign confidentiality agreements and promise not to reveal thecompany’s trade secrets."
+  }, {
+    "question": "Whistle-blowing",
+    "answer": "Whistle-blowing is an effort by an employee to attract attention to a negligent, illegal, unethical, abusive, or dangerous act by a company that threatens the public interest. Whistle-blowers often have special information based on their expertise or position within the offending organization."
+  }, {
+    "question": "conflict of interest",
+    "answer": "One potential ethical problem that can interfere with the relationship between ITworkers and their clients involves IT consultants or auditors who recommend their ownproducts and services or those of an affiliated vendor to remedy a problem they havedetected. Such a situation has the potential to undermine the objectivity of an IT workerdue to a conflict of interest—a conflict between the IT worker’s (or the IT firm’s) self interestand the interests of the client. For example, an IT consulting firm might be hired to assess a firm’s IT strategic plan. After a few weeks of analysis, the consulting firm might provide a poor rating for the existing strategy and insist that its proprietary products and services are required to develop a new strategic plan. Such findings would raise questions about the vendor’s objectivity and whether its recommendations can be trusted."
+  }, {
+    "question": "Fraud",
+    "answer": "Fraud is the crime of obtaining goods, services, or property through deception or trickery. Fraudulent misrepresentation occurs when a person consciously decides to induce another person to rely and act on a misrepresentation."
+  }, {
+    "question": "Misrepresentation",
+    "answer": "Misrepresentation is the misstatement or incomplete statement of a material fact. If the misrepresentation causes the other party to enter into a contract, that party may have the legal right to cancel the contract or seek reimbursement for damages."
+  }, {
+    "question": "Breach of contract, material breach of contract",
+    "answer": "Breach of contract occurs when one party fails to meet the terms of a contract. Further,a material breach of contract occurs when a party fails to perform certain express orimplied obligations, which impairs or destroys the essence of the contract. Because thereis no clear line between a minor breach and a material breach, determination is made on acase-by-case basis. “When there has been a material breach of contract, the nonbreachingparty can either: (1) rescind the contract, seek restitution of any compensation paid underthe contract to the breaching party, and be discharged from any further performanceunder the contract; or (2) treat the contract as being in effect and sue the breaching partyto recover damages.”"
+  }, {
+    "question": "Bribery",
+    "answer": "Bribery is the act of providing money, property, or favors to someone in business orgovernment in order to obtain a business advantage. An obvious example is a softwaresupplier sales representative who offers money to another company’s employee to get itsbusiness. This type of bribe is often referred to as a kickback or a payoff. The person whooffers a bribe commits a crime when the offer is made, and the recipient is guilty of acrime if he or she accepts the bribe. Various states have enacted bribery laws, which havesometimes been used to invalidate contracts involving bribes but have seldom been usedto make criminal convictions."
+  }, {
+    "question": "Foreign Corrupt Practices Act (FCPA)",
+    "answer": "The Foreign Corrupt Practices Act (FCPA) makes it a crime to bribe a foreign official,a foreign political party official, or a candidate for foreign political office. The act appliesto any U.S. citizen or company and to any company with shares listed on any U.S. stockexchange. However, a bribe is not a crime if the payment was lawful under the laws ofthe foreign country in which it was paid. Penalties for violating the FCPA are severe—corporations face a fine of up to $2 million per violation, and individual violators maybe fined up to $100,000 and imprisoned for up to five years."
+  }, {
+    "question": "résumé inflation",
+    "answer": "A number of ethical problems can arise among members of the IT profession. One ofthe most common is résumé inflation, which involves lying on a résumé by, for example,claiming competence in an IT skill that is in high demand. Even though an IT workermight benefit in the short term from exaggerating his or her qualifications, such an actioncan hurt the profession and the individual in the long run. Many employers consider lyingon a résumé as grounds for immediate dismissal."
+  }, {
+    "question": "IT user",
+    "answer": "The term IT user refers to a person who uses a hardware or software product; the termdistinguishes end users from the IT workers who develop, install, service, and support theproduct. IT users need the product to deliver organizational benefits or to increase theirProductivity."
+  }, {
+    "question": "professional code of ethics",
+    "answer": "A professional code of ethics states the principles and core values that are essential to thework of a particular occupational group. Practitioners in many professions subscribe to acode of ethics that governs their behavior. For example, doctors adhere to varying versionsof the 2,000-year-old Hippocratic oath, which medical schools offer as an affirmation totheir graduating classes. Most codes of ethics created by professional organizations havetwo main parts: The first outlines what the organization aspires to become, and the secondtypically lists rules and principles by which members of the organization are expected toabide. Many codes also include a commitment to continuing education for those whopractice the profession."
+  }, {
+    "question": "Ethical decision making",
+    "answer": "Adherence to a professional code of ethics meansthat practitioners use a common set of core values and beliefs as a guidelinefor ethical decision making."
+  }, {
+    "question": "High standards of practice and ethical behavior",
+    "answer": "Adherence to a code ofethics reminds professionals of the responsibilities and duties that they maybe tempted to compromise to meet the pressures of day-to-day business.The code also defines acceptable and unacceptable behaviors to guideprofessionals in their interactions with others. Strong codes of ethics haveprocedures for censuring professionals for serious violations, with penaltiesthat can include the loss of the right to practice. Such codes are the exception,however, and few exist in the IT arena."
+  }, {
+    "question": "Trust and respect from the general public",
+    "answer": "Public trust is built on theexpectation that a professional will behave ethically. People must oftendepend on the integrity and good judgment of a professional to tell the truth,abstain from giving self-serving advice, and offer warnings about the potentialnegative side effects of their actions. Thus, adherence to a code of ethicsenhances trust and respect for professionals and their profession."
+  }, {
+    "question": "Evaluation benchmark",
+    "answer": "A code of ethics provides an evaluation benchmarkthat a professional can use as a means of self-assessment. Peers of the professionalcan also use the code for recognition or censure."
+  }, {
+    "question": "Association for Computing Machinery (ACM)",
+    "answer": "The Association for Computing Machinery (ACM) is a computing society founded in 1947with over 97,000 student and professional members in more than 100 countries. It isinternational in scope—with an ACM Europe, ACM India, and ACM China organization.ACM currently publishes over 50 journals and magazines and 30 newsletters—includingCommunications of the ACM (ACM’s primary publication), ACM Tech News (coverage oftimely topics for IT professionals), XRDS (for both graduate and undergraduate studentsconsidering computing careers), RISKS Forum (a moderated dialogue on risks to the publicfrom computers and related systems), and eLearn (an online magazine about onlineeducation and training). The organization also offers a substantial digital library of bibliographicinformation, citations, articles, and journals. The ACM sponsors 37 special-interestgroups (SIGs) representing major areas of computing. Each group provides publications,workshops, and conferences for information exchange."
+  }, {
+    "question": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "answer": "The Institute of Electrical and Electronics Engineers (IEEE) covers the broad fields ofelectrical, electronic, and information technologies and sciences. The IEEE-CS is one ofthe oldest and largest IT professional associations, with about 85,000 members. Foundedin 1946, the IEEE-CS is the largest of the 38 societies of the IEEE. The IEEE-CS helpsmeet the information and career development needs of computing researchers and practitionerswith technical journals, magazines, books, conferences, conference publications,and online courses. It also offers a Certified Software Development Professional (CSDP)program for experienced professionals and a Certified Software Development Associate(CSDA) credential for recent college graduates. The society sponsors many conferences,applications-related and research-oriented journals, local and student chapters, technicalcommittees, and standards working groups."
+  }, {
+    "question": "Association of Information Technology Professionals (AITP)",
+    "answer": "The Association of Information Technology Professionals (AITP) started in Chicago in1951, when a group of machine accountants got together and decided that the future wasbright for the IBM punched-card tabulating machines they were operating—a precursor ofthe modern electronic computer. They were members of a local group called the MachineAccountants Association (MAA), which first evolved into the Data Processing ManagementAssociation in 1962 and finally the AITP in 1996."
+  }, {
+    "question": "Certification",
+    "answer": "Certification indicates that a professional possesses a particular set of skills, knowledge, orabilities, in the opinion of the certifying organization. Unlike licensing, which applies onlyto people and is required by law, certification can also apply to products (e.g., the Wi-FiCERTIFIED logo assures that the product has met rigorous interoperability testing toensure that it will work with other Wi-Fi-certified products) and is generally voluntary.IT-related certifications may or may not include a requirement to adhere to a code ofethics, whereas such a requirement is standard with licensing."
+  }, {
+    "question": "government license",
+    "answer": "In the United States, a government license is government-issued permission to engage inan activity or to operate a business. It is generally administered at the state level and oftenrequires that the recipient pass a test of some kind. Some professionals must be licensed,including certified public accountants (CPAs), lawyers, doctors, various types of medicaland daycare providers, and some engineers."
+  }, {
+    "question": "body of knowledge",
+    "answer": "The core body of knowledge for any profession outlines agreed-upon sets of skills and abilitiesthat all licensed professionals must possess. At present, however, there are no universally accepted standards for licensing programmers, software engineers, and other IT workers. Instead, various professional societies, state agencies, and federal governments have developed their own standards."
+  }, {
+    "question": "Negligence, Duty of care",
+    "answer": "Negligence has been defined as not doing something that a reasonable person would do, ordoing something that a reasonable person would not do. Duty of care refers to the obligationto protect people against any unreasonable harm or risk. For example, people have aduty to keep their pets from attacking others and to operate their cars safely. Similarly,businesses must keep dangerous pollutants out of the air and water, make safe products,and maintain safe operating conditions for employees."
+  }, {
+    "question": "reasonable person standard",
+    "answer": "The courts decide whether parties owe a duty of care by applying a reasonable personstandard to evaluate how an objective, careful, and conscientious person would haveacted in the same circumstances."
+  }, {
+    "question": "reasonable professional standard",
+    "answer": "Likewise, defendants who have particular expertise orcompetence are measured against a reasonable professional standard. For example, ina medical malpractice suit based on improper treatment of a broken bone, the standardof measure would be higher if the defendant were an orthopedic surgeon rather than ageneral practitioner. In the IT arena, consider a hypothetical negligence case in whichan employee inadvertently destroyed millions of customer records in an Oracle database.The standard of measure would be higher if the defendant were a licensed, Oracle certifieddatabase administrator (DBA) with 10 years of experience rather than anunlicensed systems analyst with no DBA experience or specific knowledge of theOracle software."
+  }, {
+    "question": "breach of the duty of care",
+    "answer": "If a court finds that a defendant actually owed a duty of care, it must then determine whether the duty was breached. A breach of the duty of care is the failure to act as a reasonable person would act. A breach of duty might consist of an action, such as throwing a lit cigarette into a fireworks factory and causing an explosion, or a failure to act when there is a duty to do so—for example, a police officer not protecting a citizen from an attacker."
+  }, {
+    "question": "professional malpractice",
+    "answer": "Professionals who breach the duty of care are liable for injuries that their negligence causes. This liability is commonly referred to as professional malpractice. For example, a CPA who fails to use reasonable care, knowledge, skill, and judgment when auditing a client’s books is liable for accounting malpractice. Professionals who breach this duty are liable to their patients or clients, and possibly to some third parties."
+  }, {
+    "question": "firewall",
+    "answer": "A firewall is hardware or software that serves as a barrier between an organization’s networkand the Internet; a firewall also limits access to the company’s network based on theorganization’s Internet-usage policy. A firewall can be configured to serve as an effectivedeterrent to unauthorized Web surfing by blocking access to specific objectionable Websites. (Unfortunately, the number of such sites is continually growing, so it is difficult toblock them all.) A firewall can also serve as an effective barrier to incoming email fromcertain Websites, companies, or users. It can even be programmed to block email withcertain kinds of attachments (for example, Microsoft Word documents), which reduces therisk of harmful computer viruses."
+  }, {
+    "question": "Compliance",
+    "answer": "Compliance means to be in accordance with established policies, guidelines, specifications,or legislation. Records management software, for example, may be developed in compliance with the U.S. Department of Defense’s Design Criteria Standard for Electronic Management Software applications (known as DoD 5015) that defines mandatory functional requirements for records management software used within the Department of Defense. Commercial software used within an organization should be distributed in compliance with the vendor’s licensing agreement."
+  }, {
+    "question": "Sarbanes–Oxley Act of 2002, U.S. Health Insurance Portability and Accountability Act of 1996 (HIPAA",
+    "answer": "In the legal system, compliance usually refers to behavior in accordance with legislation—such as the Sarbanes–Oxley Act of 2002, which established requirements for internal controls to govern the creation and documentation of accurate and complete financialstatements, or the U.S. Health Insurance Portability and Accountability Act of 1996 (HIPAA), which requires employers to ensure the security and privacy of employee healthcare data. Failure to be in compliance to specific pieces of legislation can lead to criminal or civil penalties specified in that legislation."
+  }, {
+    "question": "audit committee",
+    "answer": "The audit committee of a board of directors provides assistance to the board in fulfilling its responsibilities with respect to the oversight of the following areas of activity:<br><br>• The quality and integrity of the organization’s accounting and reportingpractices and controls, including the financial statements and reports<br>• The organization’s compliance with legal and regulatory requirements<br>• The qualifications, independence, and performance of the company’sindependent auditor (a certified public accountant who provides a companywith an accountant’s opinion but who is not otherwise associated with thecompany)<br>• The performance of the company’s internal audit team"
+  }]
+}

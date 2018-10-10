@@ -1,13 +1,13 @@
 #flashcard {
   width: 60vw;
-  height: 40vw;
+  min-height: 40vw;
   box-shadow: 10px 10px 50px -10px;
   margin: 0 auto;
   user-select: none;
 }
 
 #question {
-  font-size:3vw;
+  font-size: 3vw;
   padding: 15px;
   text-align: center;
 }
@@ -15,20 +15,31 @@
 #answer {
   font-size: 2vw;
   padding: 15px;
-  /*
-  text-indent: 30px;
-  */
 }
 
 /* Table CSS */
 table {
   width: 100%;
   text-align: center;
-  /*
-  text-indent: 0 !important;
-  */
 }
 
-table, th, td {
+table td,
+table th {
   border: 1px solid black;
+}
+
+/** create.html CSS */
+#card-div > * {
+  margin-top: 15px;
+  display: block;
+}
+
+#title-field {
+  width: 35%;
+  height: 30px;
+}
+
+#desc-field {
+  width: 40%;
+  height: 150px;
 }

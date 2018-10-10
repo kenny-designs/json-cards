@@ -16,24 +16,29 @@ Quiz.prototype.start = function() {
   this.req.responseType = 'json';
   this.req.send();
 
-  // starts up the quiz
+  // starts up the quiz with an initial question
   this.req.onload = function() {
-    // load initial question
     this.question.innerHTML = this.req.response.quiz[this.num].question;
     this.answer.innerHTML = '';
 
-    // allow flipping through cards
-    this.flashcard.addEventListener('click', function() {
-      this.nextCard();
-    }.bind(this));
-
-    // set keyboard controls
-    this.controls.setBinding('rightArrow', this.nextCard.bind(this));
-    this.controls.setBinding('leftArrow', this.prevCard.bind(this));
-
-    // touch listener
-    // document.addEventListener('touchstart', this.touchControls.bind(this), false);
+    this.setupControls();
   }.bind(this);
+};
+
+Quiz.prototype.setupControls = function() {
+  // allows flipping through cards
+  this.flashcard.addEventListener('click', function(event) {
+    if (event.offsetX > this.flashcard.offsetWidth / 2) {
+      this.nextCard();
+    }
+    else {
+      this.prevCard();
+    }
+  }.bind(this));
+
+  // set keyboard controls
+  this.controls.setBinding('rightArrow', this.nextCard.bind(this));
+  this.controls.setBinding('leftArrow', this.prevCard.bind(this));
 };
 
 // flips to the next card
@@ -99,13 +104,7 @@ Controller.prototype.handleTouchStart = function(event) {
 
 // TODO: improve this. Very crude and offers no way to catch exceptions
 // prompt the user for a quiz
-var quiz = new Quiz(prompt('Enter a quiz to take:', 'progQuiz'));
+var quiz = new Quiz(prompt('Enter a quiz to take:', 'ethics'));
 
 // begin quiz
 quiz.start();
-
-/*
-let obj = {};
-obj[37] = function(){}; // holy shit yoooo!!!
-console.log(obj);
-*/

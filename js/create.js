@@ -17,7 +17,7 @@ Create.prototype.init = function() {
     this.createBtn.addEventListener('click', function() {
       this.res.quiz.push({
         "question": this.titleField.value,
-        "answer": this.descField.value.replace(/(\r\n\t|\n|\r\t)/gm,"") // removes new lines
+        "answer": this.descField.value.replace(/(\r\n\t|\n|\r\t)/gm," ") // removes new lines
       });
 
       // print so user can see what was added
@@ -45,6 +45,6 @@ function download(content, fileName, contentType) {
   a.click();
 }
 
-var create = new Create('ethics2');
+var create = new Create('data');
 
 create.init();

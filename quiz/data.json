@@ -1,0 +1,96 @@
+{
+  "quiz": [{
+    "question": "Data Structure",
+    "answer": "is an arrangement of data in a computer’s memory"
+  }, {
+    "question": "Algorithms",
+    "answer": "refer to the logistics in manipulating data in these structures, such as searching or sorting"
+  }, {
+    "question": "What are the common types of data structures?",
+    "answer": "● Arrays<br> ● Stacks<br> ● Queues<br> ● Linked List<br> ● Hashtables<br> ● Trees<br> ● Graphs"
+  }, {
+    "question": "What is BigO from best to worst case?",
+    "answer": "1)O(1)<br> 2)O(logn)<br> 3)O(n)<br> 4)O(nlogn)<br> 5)O(n<sup>2</sup>)<br> 6)O(2<sup>n</sup>)<br> 7)O(n!)"
+  }, {
+    "question": "What are the various sorting algorithms?",
+    "answer": "○ Bubble Sort<br> ○ Selection Sort<br> ○ Insertion Sort<br> ○ Quicksort<br> ○ Radix sort<br> ○ Mergesort "
+  }, {
+    "question": "Characteristics of Algorithms",
+    "answer": "1. It should be finite. If the algorithm never ends then trying to solve a problem is useless.<br> 2. It should have well-defined instructions. Each step in the sequence must be defined with no ambiguity.<br> 3. It should be effective. The sequence should solve what it's supposed to solve. This should also be possible to achieve by hand with just pencil and paper. It’s just logic, afterall."
+  }, {
+    "question": "Complexity Notation",
+    "answer": "It refers to the asymptotic complexity, or the growth rate of the time or space complexity with respect to input size.<br> <br> ○ Big O (O) provides the upper bound<br> ○ Big Omega (Ω) provides the lower bound<br> ○ Big Theta (Θ) is bounded by both above and below"
+  }, {
+    "question": "Bubble Sort",
+    "answer": "Is notoriously slow albeit very simple.<br> It runs on O(n<sup>2</sup>)<br> Works by essentially bubbling up the greatest value from the beginning of the array via a series of swaps until it reaches the end. The end is then decreased by one and we repeat the process until there is nothing left to sort."
+  }, {
+    "question": "Selection Sort",
+    "answer": "Faster than the bubble sort in some cases. Requires same number of comparisons as the Bubble Sort though so it runs on O(n<sup>2</sup>) time.<br> Works by looping from the beginning of the array until the end looking for the smallest value. It then performs a swap once all values have been checked and places the smallest value at the beginning. We then move forward to look for the next smallest until there is nothing left to sort. Note, we are tracking the index for the smallest and not the value itself."
+  }, {
+    "question": "Insertion Sort",
+    "answer": "● 2x faster than bubble sort<br> ● Faster than selection sort in most cases<br> ● Slightly more complex<br> ● Quicksort uses it as a stage<br> ● Start with a partially sorted array<br> <br> Despite all this, it still runs on O(n<sup>2</sup>) time. However, if the array is partially sorted already then this may be reduced down to O(n) time. Also, a swap is an expensive operation while a copy is not.<br> The idea of this sort is that the beginning of the array we are sorting is a tiny sorted array in itself. All values that aren't inside this tiny array are inserted one by one until none remain."
+  }, {
+    "question": "Linked Lists",
+    "answer": "● Can be used in same places as Arrays except when you know the index or have a fixed-sized array.<br> ● The reference is an address to computer memory. To get to element i, you need to traverse from index 0 until i.<br> ● A sequence of lines (or nodes)<br> ● The linked list is second most commonly used behind arrays<br> ● Used for real-world data storage<br> ● Good in situations where structure will be frequently modified<br> ● Bad in situations with frequent accesses (we’ll see why)<br> ● Data in linked lists are embedded in links<br> ● Each link consists of data itself and a reference to the next link in the list, which is null for the last item<br> ● The first link can also be referred to as the head element "
+  }, {
+    "question": "What types of Linked Lists are there?",
+    "answer": "• Simple - insert and delete from beginning<br> • Double-ended - allow inserting new node at the end in O(1)<br> • Sorted - inserting elements to a sorted list, same run time as Array<br> • Doubly-linked - allow forward and backward traversal<br> • Lists with iterators - keeping track of the next node, like a cursor"
+  }, {
+    "question": "Simple Linked List",
+    "answer": "• Insertion<br> -->At the beginning (fast)<br> -->In the middle (slower, although still better than arrays)<br> • Deletion<br> -->At the beginning (fast)<br> -->In the middle (slower, although still better than arrays)<br> • Search<br> -->Similar to arrays, worst case we have to check all elements "
+  }, {
+    "question": "Double-Ended Lists",
+    "answer": "• Same as simple linked list, except there are now two references kept<br> -->One to the beginning (first/head)<br> -->And one to the end (last/tail)<br> • Enables easy insertion at both ends<br> -->You still cannot delete the last element any easier. Why?<br> -->You cannot change find() to start from the end. Why? "
+  }, {
+    "question": "Sorted Linked Lists",
+    "answer": "• Linked list where the data is maintained in sorted order<br> • Useful in some applications<br> -->Same applications where you’d use a sorted array<br> -->But, insertion will be faster!<br> -->And, memory will be used more efficiently<br> -->But, a tad more difficult to implement"
+  }, {
+    "question": "Doubly Linked LIsts",
+    "answer": "● Allows you to traverse backward and forward<br> ● Each link contains references to previous and next<br> ● Slight drawbacks to doubly linked list<br> -->Memory<br> -->Also, straightforward algorithms become slower (guess as to why?)<br>"
+  }, {
+    "question": "Circularly Linked List",
+    "answer": "● A single linked list is circularly linked if the successor of the last node is the first<br> ● A doubly linked list is circularly linked if the successor of the last node is the first, and predecessor of the first node is the last<br> ● Similar to non-circularly linked list except<br> -->when you are adding to an empty list<br> -->Removing the last node from a list"
+  }, {
+    "question": "Iterators",
+    "answer": "• More control over the items we traverse to find elements<br> • We can sequentially traverse list in O(n) time, can we do better?<br> • Suppose we wanted to perform an operation on all list elements which<br> meet a certain criteria. Right now:<br> -->Call find() repeatedly<br> -->Find all unique elements that meet the criteria<br> ---->Ensure no duplicates<br> -->Perform operations<br> • Iterators make this easier<br> • We can have multiple iterators going through a list at the same time"
+  }, {
+    "question": "Bidirectional Iterators",
+    "answer": "• If we have a doubly-linked list, it’s easy.<br> • Let’s add two methods to our previous iterator class:<br> -->One to access the previous Link prevLink()<br> • If we have a singly-linked list, it’s more difficult<br> -->Must add a data member previous"
+  }, {
+    "question": "What are Abstract Data Types (ADT)?",
+    "answer": "- An abstract data type has a set of data and a set of operations.<br> - It’s a way of looking at data structure<br> - Focusing on WHAT it does, ignoring how it does its job<br> - Stacks & Queues are examples of ADTs<br> - ADT specification is called an interface"
+  }, {
+    "question": "What is a stack?",
+    "answer": "● Only allows access to last item inserted<br> ● Last-In-First-Out (LIFO) structure<br> ● To get to second to last, remove last<br> ● Is essentially a pringles can<br> ● Three operations: push(), pop(), peek()<br> ● isEmpty(), isFull()<br> ● Can make use of arrays or linked lists"
+  }, {
+    "question": "What's a queue?",
+    "answer": "● First-In-First-Out (FIFO) structure<br> ● Items are inserted in the rear and removed from the front<br> ● Four operations: insert(), remove(), front(), rear()<br> ● Other methods: peekFront(), isEmpty(), isFull()"
+  }, {
+    "question": "What's a deque?",
+    "answer": "● A double-ended queue<br> ● Can insert and delete from either end"
+  }, {
+    "question": "What is a priority queue?",
+    "answer": "● Sorted queue<br> ● Has front, rear, and items removed from the front.<br> ● Items are ordered by key value<br> ● Methods: insert, remove, peekMin, isEmpty(), isFull()<br> ● Efficiency is O(N) time (array) while deletion is O(1) time<br> ● Applications: weighted graphs, minimum spanning trees<br> ● Can be implemented with arrays, linked lists, trees, heaps"
+  }, {
+    "question": "The Push() Operation",
+    "answer": "● Place element on top of the stack"
+  }, {
+    "question": "The Pop() Operation",
+    "answer": "● Remove top element from the stack<br> ● When everything is popped off the stack, it is considered an empty stack<br> ● Stacks are initially empty"
+  }, {
+    "question": "The Peek() Operation",
+    "answer": "● View top element of the stack without removing it"
+  }, {
+    "question": "Recursion",
+    "answer": "● Definition<br> -->A programming technique where a function calls itself<br> -->Very effective technique in programming<br> ● Used to solve a wide class of problems<br> -->Factorials<br> -->Fibonacci<br> -->Anagrams<br> -->Binary Search<br> -->Towers of Hanoi<br> -->Mergesort"
+  }, {
+    "question": "Mergesort",
+    "answer": "• This begins our discussion of more advanced sorting techniques<br> -->It uses recursion<br> • Complexity<br> -->O(n log n)<br> -->Where the best we’ve seen so far is O(n<sup>2</sup>)<br> -->An idea of the difference:<br> ---->n=10000, 100 million operations for O(n<sup>2</sup>)<br> ---->n=10000, 40 thousand operations for O(n log n)<br> • Bad thing: Memory<br> -->Requires a temporary array of size n "
+  }, {
+    "question": "Linear vs Non-linear data",
+    "answer": "Linear Data - data is stored in a linear fashion. Traversals are sequential, and only one data can be directly reached (Arrays, Linked-List, Stacks, Queues, Hash) <br><br> Non-linear - data links to other nodes, not arranged sequentially. A node can be connected to more than 1 element. (Trees, Graphs)"
+  }, {
+    "question": "Trees: General",
+    "answer": "• A tree is an abstract data type (ADT) that simulates hierarchical structure<br> • A non linear structure<br> • A tree consists of nodes, connected by edges<br> • Trees cannot have cycles, otherwise, it’s a graph"
+  }]
+}
